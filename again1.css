@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+/*	margin: 0px auto;*/
+}
+
+.container{
+	max-width:1200px;
+	
+}
+
+
+.cube{
+	display: flex;
+	text-align: center;
+	
+
+}
+
+.side{
+	width: 33%;
+	height: 390px;
+	border: 3px solid;
+	margin: 4px;
+
+}
+
+.oper{
+	display: flex;
+	
+}
+
+.ert{
+	border: 3px solid;
+	margin: 4px;
+	height: 300px;
+}
+
+@media screen or (max-width:600px){
+	.container{
+		max-width: 500px;
+	}
+	.cube{
+		display:block;
+		font-size: 15px;
+	}
+	.side{
+		width: 100%;
+	}
+	.oper{
+	display: block;
+	
+}
+}
